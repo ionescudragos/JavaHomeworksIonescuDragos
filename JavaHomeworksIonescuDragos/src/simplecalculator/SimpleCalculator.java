@@ -35,9 +35,13 @@ public class SimpleCalculator {
             break;
 
         case "/":
+            if (n2 != 0){
             System.out.println("Your answer is " + (n1 / n2));
+            }
+            else 
+                System.out.println("operati1on invalid");
             break;
-
+            
         case "*":
             System.out.println("Your asnwer is " + (n1 * n2));
             break;
